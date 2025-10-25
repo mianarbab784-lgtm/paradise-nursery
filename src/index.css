@@ -1,0 +1,63 @@
+/* src/index.css */
+
+/* Reset default margins/paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* App container */
+.App {
+  text-align: center;
+  min-height: 100vh;
+}
+
+/* Header styling */
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1rem;
+}
+
+/* Buttons */
+button {
+  padding: 0.5rem 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Main content spacing */
+main {
+  padding: 2rem;
+}
+
+/* Cards (Product / Cart Item) */
+.card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
